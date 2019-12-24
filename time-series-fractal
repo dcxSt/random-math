@@ -1,0 +1,6 @@
+# test with fractal for the time series
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+
