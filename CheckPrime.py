@@ -13,3 +13,6 @@ def checkPrime(n): # boolean - true if prime
         if n%i == 0:
             return False
     return True
+
+if __name__=="__main__":
+	print('test')

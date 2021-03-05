@@ -72,7 +72,7 @@ def draw_polar(shape=polar_experiment1,grain="fine",length="standard"):
     return
 
 if __name__=="__main__":
-    shape = polar_experiment1
+    shape = polar_experiment1_1
     turtle.speed(0)
     #draw_cartesian(shape,grain="standard",length="long")
     draw_polar(shape,grain="okay",length="long")
