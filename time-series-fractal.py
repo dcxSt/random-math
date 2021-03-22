@@ -24,7 +24,7 @@ def getPeaks(n): # returns list of n points in time which are peaks in the Sn
     return peaks
 
 def generateProbabilityDistribution(peaks):
-    
+    return    
 
 
 
