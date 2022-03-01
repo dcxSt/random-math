@@ -122,8 +122,17 @@ def decryptFromTxt(fname):
 	return decryptMessage(message,5,7*17)
 
 if __name__=="__main__":
-	scrambled = encryptMessage()
-	unscrabled = decryptMessage(scrambled,5,7*17)
+    scrambled = encryptMessage()
+    print("scrmbled message: {}".format(scrambled))
+    unscrabled = decryptMessage(scrambled,5,7*17)
+    
+# # to unscramble a message uncomment following block and comment out previous, 
+# # then enter your message in list of strings format as indicated
+# if __name__=="__main__":
+#     scrambled = ["0111111","0101010","1100101","0101111","1100111","1010111","0110101",
+#             "0101110","1011110","1101011"]
+#     unscrambled = decryptMessage(scrambled,5,7*17)
+#     print("unscrambled: {}".format(unscrambled))
 	
 """
 
